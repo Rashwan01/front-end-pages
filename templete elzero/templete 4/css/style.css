@@ -1,0 +1,610 @@
+/* coder project:ahmed mostafa
+   desgin by:ahmed mostafa
+   first main color:#08526d
+second main color:ec1c23
+
+
+
+*/
+
+
+.Go
+{    top: 750px;
+    right: 10px;
+    position: fixed;
+    z-index: 5555;
+}
+
+.upper-nav {
+    background: #08526d;
+    color: #FFF;
+   
+}
+.info
+{
+    padding: 10px  0
+}
+
+.upper-nav span {
+    color: #bfc6c9
+}
+
+.btn-Get {
+    margin-left: 10px;
+    border: 1px solid#ec1c23;
+    padding: 5px;
+    display: inline-block;
+}
+
+/* start navbar*/
+
+.navbar-brand span {
+    font-size: 40px;
+    text-transform: capitalize;
+
+}
+
+.navbar-brand span:first-child {
+    color: #08526d;
+    font-weight: bold
+}
+
+.navbar-brand span:last-child {
+    color: #ec1c23
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #ec1c23
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #08526d
+}
+
+/* end navbar*/
+
+/*start slider*/
+
+.slider {
+    background: #DDD
+}
+
+.carousel-item {
+    background-size: cover
+}
+
+.carsousel-one {
+    background: url("../img/a.jpg") center center
+}
+
+.carsousel-two {
+    background: url("../img/aa.jpeg") center center
+}
+
+.carsousel-three {
+    background: url("../img/ah.jpeg") center center
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.slider h1 {
+    position: absolute;
+    z-index: 3;
+    color: #FFF;
+    max-width: 850px;
+    font-size: 65px;
+    left: 100px;
+}
+
+.slider h1 span {
+    background: #ec1c23;
+    color: #FFF;
+    margin: 5px;
+    display: inline-block
+}
+
+.slider .carousel-inner {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+/*end slider*/
+
+/*start featue section */
+
+.feature {
+    padding: 100px 0 0 0
+}
+
+.feature svg {
+
+    color: #FFF;
+       margin: 27% 0 0 0;
+}
+.feature .icon{
+    width: 100px;
+    background:#ec1c23;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+
+.feature h3 {
+    color: #08526d;
+    padding-top: 20px;
+}
+
+.feature p {
+    color: #777;
+    margin-bottom: 100px;
+}
+
+/*end  featue section */
+
+/*article */
+
+.article {
+    margin: 50px 0 0 0;
+    background:url("../img/italic.png");
+    padding: 50px 0
+}
+
+.article h1 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+
+.article p {
+    color: #777;
+
+}
+
+.article span {
+    letter-spacing: 8px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 37px;
+    color: #777;
+}
+
+.article div.btn {
+    width: 250px;
+    height: 50px;
+    background: #ec1c23;
+    color: #FFF;
+    line-height: 50px;
+    padding: 0;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+/* end article */
+
+/* work */
+
+.work {
+    margin-top: 50px;
+}
+
+.work h1 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.work p {
+    color: #777;
+
+}
+
+.work ul {}
+
+.work ul li {
+
+    border: 1px solid#08526d;
+    padding: 10px 18px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.work ul li.active,
+.work ul li:hover {
+    color: #FFF;
+    background: #ec1c23;
+    border: 2px solid#ec1c23;
+}
+
+.work ul li:hover {
+    cursor: pointer
+}
+
+.work .row {
+    margin-right: 0
+}
+
+.work .row img {
+    width: 100%;
+
+}
+
+.work .imgSec .col-md {
+    padding: 0;
+    transition: all 0.5s ease-in-out
+}
+
+/*end work*/
+
+/*lasted post */
+
+.lastPost {
+    margin-top: 50px;
+}
+
+.lastPost h1 {
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.lastPost p {
+    color: #777;
+
+}
+
+.lastPost .card {
+    margin-bottom: 20px
+}
+
+.lastPost .card .card-title {
+
+    font-size: 19px;
+    color: #08526d;
+    margin-bottom: 22px;
+    line-height: 1.3;
+
+}
+
+.lastPost .card .card-text {
+    margin: 0
+}
+
+.lastPost .card .btn {
+    color: #ec1c23;
+    font-weight: 700;
+    font-size: 11px;
+    padding: 0
+}
+
+/*end*/
+
+/*testi */
+
+.testi {
+
+    position: relative;
+    z-index: 50;
+    background-size: cover;
+    background: url("../img/aa.jpg") center center ;
+
+}
+.testi .c
+{
+    position: relative;
+    z-index: 5
+}
+.testi .carousel-item  img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 31px;
+}
+.testi .carousel-item span
+{
+        display: inline-block;
+    font-size: 19px;
+    margin-bottom: 42px;
+}
+.testi .carousel-item .carousel-caption
+
+{
+    margin-bottom: 175px;
+}
+
+/*lasted post */
+
+.pricing{
+    margin-top: 50px;
+}
+
+.pricing h1 {
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.pricing p {
+    color: #777;
+        margin: 50px 50px;
+
+}
+
+.pricing .card {
+    margin-bottom: 52px
+}
+
+.pricing .card .card-title {
+
+font-size: 32px;
+    color: #08526d;
+        padding: 50px 0px 0 0;
+    line-height: 1.3;
+    text-transform: capitalize;
+}
+
+.pricing .card .card-text {
+    margin: 0;
+    color: #08526d;
+    font-size: 47px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    background: #EAEAEA;
+        margin-top: 50px;
+}
+.pricing .card .card-text.active
+{
+    background: #ec1c23;
+    color: #FFF
+}
+.pricing .card .card-text span
+{
+        font-size: 20px;
+}
+.pricing .card .subtitle{
+        margin-bottom: 15px;
+}
+
+.pricing .card .btn {
+        color: #FFF;
+    /* font-weight: 700; */
+    font-size: 19px;
+    background: #ec1c23;
+    padding: 0;
+    width: 50%;
+    border-radius: 2px;
+    height: 42px;
+    line-height: 42px;
+    letter-spacing: 6px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.pricing .card .btn.active
+{
+    background:#08526d;
+        color:#fFF
+}
+ .pricing .list-group-item
+{
+    border:none
+}
+  .pricing .card-body
+{
+    padding: 1px
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+
+/*end*/
+/*why us*/
+.US img
+
+{
+max-width: 100%
+}
+.US .col-lg-6:first-child
+{
+    padding: 0
+}
+
+
+.US .col-lg-6:last-child
+{
+    background: #08526d;
+   
+    color: #FFF;
+}
+.US h2
+{
+
+    font-size: 35px;
+    margin-bottom: 30px;margin-top:45px
+}
+.US p
+{
+        font-size: 24px;
+    line-height: 2;
+    font-size: 16px;
+    
+}
+.US .btn {
+      color: #FFF;
+    /* font-weight: 700; */
+    font-size: 19px;
+    background: #ec1c23;
+    padding: 0;
+    width: 30%;
+    border-radius: 2px;
+    height: 50px;
+    line-height: 50px;
+    letter-spacing: 6px;
+
+    text-transform: uppercase;
+  
+}
+/*us end*/
+/* stasic */
+
+.stats {
+
+    min-height: 350px;
+    margin-top: 40px;
+    background-size: cover;
+
+
+
+}
+
+.stats .data {
+
+    min-height: 350px
+}
+
+.stats .data .container h1 {
+    padding-top: 25px;
+    font-family: sans-serif;
+    padding-bottom: 45px;
+    color: #fff;
+}
+
+.stats .stat {
+    margin-bottom: 50px;
+    color: #08526d;
+    transition: all 0.4s ease-in-out;
+}
+
+.stats .stat:hover {
+    color: #777
+}
+
+.stats .stat:hover p {
+    color: #777
+}
+
+.stats p {
+    font-size: 35px;
+    color: #08526d;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.stats span {
+       color: #ec1c23;
+    text-transform: uppercase;
+}
+
+/* end statstics */
+
+/* start contact us */
+.contact
+{
+    margin: 50px 0 0 0 ;
+    padding: 100px ;
+    color: #FFF;
+    background: #ec1c23;
+    font-size: 26px;
+  
+    text-transform: capitalize;
+}
+.contact .btn
+{
+    background-color: #ec1c23;
+    color: #FFF;
+    border: 1px solid#FFF;
+    letter-spacing: 8px;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+/* end contact us */
+.footer
+{margin: 50px 0
+    
+}
+.footer .navbar-brand
+{
+    margin-bottom: 30px
+}
+.footer span
+{
+        color: #08526d;
+    font-weight: bold;
+}
+.footer p
+{
+    line-height: 1.8;
+    color: #777
+}
+.footer ul
+{
+    margin-top: 45px;
+}
+.footer ul li
+{
+    text-transform: capitalize;
+    font-size:15px;
+    margin-bottom: 10px
+}
+.footer ul li svg
+{
+    margin-right: 10px;color: #777
+}
+.footer  h1, .footer h2
+{
+    color: #08526d;
+    text-transform: uppercase;
+    font-size: 30px
+}
+.footer .CONTACT ul li
+{
+        text-transform: capitalize;
+    margin-left: 30px;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.copywrite
+{ border-top: 1px solid#EAEAEA;
+    padding: 30px 0 30px 0;
+    
+}
+.copywrite ul 
+{
+    margin: 0
+}
+.copywrite ul li
+{
+    display: inline-block;
+    margin-left: 25px
+   
+}
+.copywrite ul li a
+{
+    color: #777;
+}

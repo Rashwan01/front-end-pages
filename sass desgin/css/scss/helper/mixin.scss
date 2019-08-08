@@ -1,0 +1,52 @@
+@mixin MinMedium{
+  @media(min-width:767px)
+  {
+    @content;
+  }
+}
+
+/*
+** mixin overlay to help
+** main properites
+*/
+@mixin overlay($color,$background,$opacity,$z_index)
+{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left:0;
+  position: absolute;
+  background-color: rgba($background,$opacity);
+  color: $color;
+  z-index: $z_index;
+
+}
+/*
+** vendor prefixes ver 0.1
+*/
+@mixin prefixer($property,$value,$prefixes:())
+{
+  @each $prefix in $prefixes
+  {
+    #{'-' + $prefix + '-' + $property}:$value;
+  }
+  #{$property}:$value;
+}
+/*
+**vendor animation $prefixes
+*/
+@mixin Frames($aniName,$prefixes:())
+{
+    @-webkit-keyframes #{$aniName}
+      {
+        @content;
+      }
+    @-moz-keyframes #{$aniName}
+      {
+        @content;
+      }
+    @keyframes #{$aniName}
+      {
+        @content;
+      }
+}

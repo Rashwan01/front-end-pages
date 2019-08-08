@@ -1,0 +1,91 @@
+
+.br
+{
+    border: 1px solid#eaeaea
+}
+.mb-50
+{
+    margin: 0 0 100px 0
+}
+.br-b
+{
+    border-bottom: 1px solid#eaeaea
+}
+.m-100
+{
+    margin: 100px 0
+}
+.h55
+{
+    font-size: 55px
+}
+.h12
+{
+    font-size: 12px
+}
+.lead
+{font-weight: 400}
+
+.sec1 form input
+{    width: auto;
+    padding: 9px;
+    border: 1px solid#Eaeaea;
+    
+}
+.sec1 form button
+{
+    padding: 9px;
+    margin-top: 8px;
+    border-radius: inherit;
+}
+.sec1 span
+{
+    font-size: 12px
+}
+.sec2 img
+{
+    width:50%
+}
+.sec4 form {
+    background: #FFF;
+}
+.sec4 form .head h1
+{
+    font-size: 25px;
+    padding: 10px
+}
+
+.sec4 form {
+    padding: 20px;
+    margin: 20px 45px;
+    border-radius: 3px;
+    border: 2px solid#eaeaea
+}
+
+.form-control {
+    padding: 24px 10px;
+}
+
+.sec4 form label {
+    font-size: 14px;
+}
+
+.sec4 form span {
+    font-size: 11px;
+    color: #777;
+}
+
+.sec4 form .labelAGREE {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.sec4 .holder
+{
+        position: relative;
+    top: 50%;
+    margin-top: -82px;
+}
+.footer
+{
+    margin-top:250px
+}

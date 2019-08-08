@@ -1,0 +1,73 @@
+/* smart phone and tablet */
+
+@media (max-width:575px) {
+    .cons {
+        margin: 150px 5px 50px;
+        background: #EAEAEAEA;
+        height: 910px;
+    }
+
+    .cons .texts {
+        margin: 48px 21px;
+    }
+
+
+    .cons img {
+        width: 90%;
+        margin: 0 23px;
+    }
+    .cons h2:first-child {
+        font-size: 24px;
+    }
+    .caption .TAGES img {
+    width: 40px;
+    height: 40px;
+    margin-left: 26px;
+}
+    .caption h2 {
+  margin-left: 0;
+    font-size: 26px;
+}
+.paperText {
+    float: right;
+    width: 229px;
+}
+    .client img
+    {
+        position: static;
+        width: 90px;
+        height: 90px;
+        
+    }
+.client .control {
+    width: 100px;
+    margin: 180px 139px;
+}
+    .person
+    {
+            margin: 10px;
+    }
+    .client .title {
+    float: right;
+    width: 71%;
+    margin-top: -33px;
+}
+
+
+
+}
+
+@media (min-width: 576px) and(max-width:768px) {}
+
+/* small screen*/
+
+@media(min-width:768px) and(max-width:991) {}
+
+
+/*medium screen */
+
+@media (min-width:992px) and (max-width:1199px) {}
+
+/*large screen and up  */
+
+@media(min-width:1200px) {}

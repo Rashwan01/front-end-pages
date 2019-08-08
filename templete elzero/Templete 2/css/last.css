@@ -1,0 +1,432 @@
+/*  classes */
+
+.bold {
+    font-weight: 400
+}
+
+.fill-width {
+    width: 100%
+}
+
+img.shadoo {
+    box-shadow: 7px 8px 1px #eaeaea;
+
+    position: relative;
+}
+
+.overlay {
+    background: #217CC5;
+    opacity: 0.9555;
+    width: 100%;
+    height: 100%;
+}
+
+.table {
+    display: table;
+    height: 100%;
+}
+
+.table-row {
+    display: table-row;
+    height: 100%
+}
+
+.bg-blue {
+    background: #217CC5;
+}
+
+.navbar-white,
+nav ul a {
+    color: #fff;
+
+}
+
+nav ul a {
+    opacity: 0.4;
+    transition: all 0.5s ease;
+}
+
+nav ul a:hover {
+    color: #FFF;
+    opacity: 1
+}
+
+/* classes*/
+
+body
+{
+    text-transform: capitalize;
+}
+
+nav {
+    position: fixed;
+    z-index: 111;
+    width: 100%;
+    top: 0;
+
+
+}
+
+nav > a {
+    margin-left: 6%;
+    color: #FFF
+}
+
+nav > a:hover {
+    color: #FFf;
+}
+
+nav ul {
+    margin-left: 63%;
+    color: #FFF
+}
+
+nav ul li {
+    padding-right: 10px;
+}
+
+.dropdown-item {
+    color: #000;
+    background: #FFF;
+}
+
+.header {
+    background: url("../img/header.jpg");
+}
+
+.header .intro {
+    overflow: hidden;
+    width: 500px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 52px;
+}
+
+.header p {
+    color: #fff;
+}
+
+.header .btn-con {
+    margin-top: 100px;
+
+}
+
+.header .btn-con div {
+    font-size: 20px;
+}
+
+.header .btn-con div:last-child {
+    color: #fFF;
+    border: 1px solid#FFF;
+}
+
+.header .btn-con div:last-child:hover {
+    color: #000;
+    border: 1px solid#FFF;
+    background: #FFF;
+}
+
+/* end first section */
+
+/* start section caption */
+
+.caption {
+    padding-top: 70px;
+    margin-bottom: 79px;
+font-family: 'Roboto', sans-serif;
+}
+
+.caption h2 {
+    margin-left: 157px;
+}
+
+/* end section caption */
+
+/* start section info */
+
+.info {
+    margin: 50px 0;
+     font-family:'Merienda', cursive;
+}
+
+.info h3 {
+    padding: 30px 0 10px
+}
+
+.info p {
+    color: #777;
+}
+
+.info span {
+    border-bottom: 2px solid#eaeaea;
+    padding-bottom: 2px;
+    color: #777;
+    transition: all 0.45s ease;
+}
+
+.info span:hover {
+    border-bottom: 2px solid#212121;
+    padding-bottom: 2px;
+    color: #212121;
+}
+
+/* end section info */
+
+/* start cons */
+
+.cons {
+    margin: 150px 5px 50px;
+    background: #EAEAEAEA;
+    height: 550px;
+    position: relative;
+font-family: 'Bree Serif', serif;
+}
+
+.cons .texts {
+        margin: 96px 45px;
+      
+}
+
+.cons h2:first-child {
+    padding-top: 12px;
+}
+
+.cons p {
+    font-size: 18px;
+    font-weight: 100;
+    color: #777;
+}
+
+}
+
+.cons .mgcon {
+    overflow: hidden;
+}
+
+.cons img {
+
+       width: 90%;
+    /* position: relative; */
+    /* left: 26%; */
+    /* top: 43px; */
+    margin: 15px 47px;
+}
+
+/*end cons*/
+
+.feature {
+    margin: 100px 20px 50px;
+    font-family: 'Cabin Sketch', cursive
+}
+
+.feature .paper {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.icon {
+    padding: .66667rem;
+    border-radius: .35rem;
+    background: #1283da;
+    text-align: center;
+    display: inline-block;
+    line-height: 1;
+    min-width: 53px;
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.paperText {
+    float: right;
+    width: 279px;
+}
+
+/* end feature */
+
+/*start client */
+
+.client {
+
+    width: 100%;
+      background: #1283da!important;
+}
+
+
+
+.client .holder-carsoul .person  img {
+      width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    position: absolute;
+   top: 85px;
+    left: 185px;
+
+}
+
+.client .title {
+      float: right;
+    width: 71%;
+    margin-top: 100px;
+}
+.client .title blockquote ,.client .title span
+{
+    color: #FFF;    font-size: 27px;
+}
+
+.motion
+{
+    margin-top: 100px;
+}
+.motion img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    animation: motion  10s ease-in-out 5;
+}
+.motion img:first-of-type
+{
+        margin: 100px 165px;
+    animation-delay: 0.2s;
+
+}
+.motion img:nth-of-type(2)
+{
+           margin: 162px 0 0;
+        animation-delay: 0.4s
+
+}
+.motion img:nth-of-type(3)
+{
+    margin-left: 144px;
+        animation-delay: 0.6s
+
+}
+.motion img:nth-of-type(4)
+{
+          margin: 173px 82px 00;
+        animation-delay: 0.8s
+
+}
+.motion img:last-child
+{
+        margin: 183px 10px 0 0;
+        animation-delay: 1s
+
+    
+}
+.client .control li
+{    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    overflow: hidden;
+    opacity: .25;
+    /* position: absolute; */
+    display: inline-block;
+    background: #fff;
+
+    border-radius: 50%;
+}
+.client .control li a
+{
+    cursor: pointer
+}
+.client .control 
+{
+           width: 100px;
+    margin: -1px 519px;
+}
+ .client .holder-carsoul
+{
+    display: none;
+}
+ .client .holder-carsoul.active
+{
+    display: block;
+}
+
+/*end client*/
+
+.caption .TAGES {
+    margin:40px 0 60px;
+}
+
+.caption .TAGES img {
+    width: 150px;
+    height: 110px;
+    margin-left: 26px;
+}
+
+.caption .TAGES img:nth-of-type(5) {
+    margin-top: 42px;
+
+}
+
+.caption .TAGES img:last-child {
+    margin-top: 35px;
+}
+
+
+/*end */
+
+.footer ul li {
+    margin: 10px 0;
+}
+
+.footer ul li.active {
+    font-weight: 500;
+    border: none;
+    color: #000;
+}
+.footer ul li.active:hover {
+border: none;
+}
+
+.footer ul li {
+    width: max-content;
+    border-bottom: 1px solid#EAeaea;
+    padding-bottom: 2px;
+    transition: all 0.2s ease-in-out;
+    color: #717171
+}
+
+.footer ul li:hover {
+    border-bottom: 1px solid#777;
+}
+
+.footer ul li span {
+    width: 38%;
+    height: 2px;
+    background: #c1c1c1;
+    display: block;
+}
+@keyframes motion
+{
+    
+      0%{
+        
+        transform: translateY(0)
+    }
+    25%{
+        
+        transform: translateY(100px)
+    }
+    50%
+    {
+        transform: translateY(100px)
+    }
+    75%{
+          transform: translateX(200px)
+    }
+    100%{
+        transform: translate(0)
+    }
+    
+}

@@ -1,0 +1,119 @@
+/* smart phone and tablet */
+@media (max-width:575px)
+{
+     .btnbtn
+    {
+        margin:  10px auto;
+        
+    }
+    .post .upost {
+    padding-left: 30%;
+    padding-right: 3%;
+    margin-top: -18%;
+    font-size: 13px;
+    font-weight: 400;
+}
+.interactive .liker,.interactive .commenter,.interactive .share
+{
+    
+
+    display: inline-block;
+    padding-right: 14px;
+    width: auto
+    
+
+
+}
+    
+
+.news .message input {
+    margin: -1px
+  
+}
+    .nof {
+    border-radius: 8px;
+    max-width: 500px;
+    height: 550px;
+    border: 1px solid#eaeaea;
+    margin: auto;
+    text-transform: capitalize;
+    margin-top: -6138px;
+    z-index: 1000;
+    background: #fff;
+    overflow: hidden;
+    animation: key 1s ease-in-out;
+    position: relative;
+    display: none;
+}
+}
+
+@media (min-width: 576px) and(max-width:768px)
+{
+    .subscribe form
+    {
+        margin: 0px 138px;
+    }
+    post .upost {
+    padding-left: 30%;
+    padding-right: 3%;
+    margin-top: -13%;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+}
+/* small screen*/
+@media(min-width:768px) and(max-width:991)
+{
+   .subscribe form
+    {
+     margin: 10px 128px;
+    }
+}
+
+
+/*medium screen */
+@media (min-width:992px) and (max-width:1199px)
+{
+    .subscribe form
+    {
+     margin: 10px 267px;
+    }
+    .team .container h1
+    {
+        margin-right: 450px;
+        margin-bottom: 50px;
+        padding-top: 50px;
+        color: #EEE;
+        text-transform: capitalize;
+        border-bottom: 1px solid;
+    }
+}
+/*large screen and up  */
+@media(min-width:1200px)
+{
+    
+    .subscribe form {
+    margin: 0px 350px;
+    }
+    .team .container h1
+    {
+        margin-right: 750px;
+        margin-bottom: 50px;
+        padding-top: 50px;
+        color: #EEE;
+        text-transform: capitalize;
+        border-bottom: 1px solid;
+    }
+.container
+    {
+            max-width: 1266px
+    }
+
+}
+
+
+    
+   
+    
+}

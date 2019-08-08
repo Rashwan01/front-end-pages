@@ -1,0 +1,44 @@
+*
+{
+@include prefixer(box-sizing,border-box,webkit moz)
+}
+.container{
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  width: 100%;
+@media #{$xs}
+{  width: auto;
+
+}
+
+@media #{$md}
+{  width: 720px;
+
+}
+@media #{$lg}
+{  width: 970px;
+
+}
+@media #{$xl}
+{  width: 1140px;
+
+}
+
+
+
+}
+.w-100
+{
+  width: 100%;
+}
+
+.w-50
+{
+width: 50%;
+}
+.fix
+{
+  clear: both;
+}

@@ -1,0 +1,77 @@
+/* smart phone and tablet */
+
+@media (max-width:575px) {
+
+  .col-xs-hidden{display: none;}
+    .feature  span
+    {
+        width: auto
+    }
+    .col-xs-visible
+    {
+        display: block;
+    }
+.plan .row p{ padding: 0 0 10px 0;}
+.plan h2{font-size: 22px;  padding: 0 0 10px 0;}
+iframe {position: absolute;top: 0;left: 0;width: 100%;height: 48%;}
+.holding{  width: 100%;}
+.holding .player { position: absolute; top: 13%; left: 36%; z-index: 55; background: rgb(255, 255, 255); border-radius: 50%; width: 90px; height: 90px; overflow: hidden;
+}
+.holding .player svg {margin: 39%;}
+.about {width: 90%;}
+.howIAM .collection img {float: left;width: 48%;margin-left: 5px;/* height: 250px; */}
+.plan .conPrice { margin: 13px; border-bottom: 1px solid #EAEAEA;}
+.conPrice p { font-size: 13px;}
+.question .conPrt {width: 100%;}
+.trusted img{  margin-bottom: 10px;    width: 49%;}
+.customer .button {margin: 25px 0% 32px 135px ;}
+.conNews { width: 100%;    margin-bottom: 4px }
+.pcOnly{    display: none;}
+.logo + span{margin: 50px 5px 0 0;}.video .button{margin: 7px 0 30px 20px ;}
+.plan .button {margin: 7px 9px 26px 115px;}
+.feature img {    margin-left: 112px;}
+.trusted .party {display: none;}
+.plan .conPrice {margin: -11px;}
+}
+/* small screen*/
+@media (min-width: 576px) and (max-width:768px) {
+    
+.col-sm-hidden{display: none}
+.plan .conPrice .left {border: 1px solid#EAEAEA;width: 342px;margin: 0 0 50px 0;display: inline-block;}
+.plan .button {margin: 7px 45% 26px 275px;}
+.plan .conPrice {margin: 0}
+.plan .row p {padding-left: 0;  padding-bottom: 34px}
+.feature img { margin-left: 25%;}
+.holding {   margin: 10px 0 0 -19px;}
+.video .button {margin: 7px 45% 41px 264px;}
+.feature img{margin-left: 25%;}
+}
+/*medium screen */
+@media(min-width:768px) and(max-width:991) {
+
+}
+
+
+
+
+@media (min-width:992px) and (max-width:1199px) {
+.col-lg-hidden{display: none}
+.plan .conPrice {margin: 50px 100px}
+.video .button {margin: 7px 45% 22px 420px}
+.plan .button {margin: 7px 45% 50px;}
+.question .conPrt {
+    width: auto;
+}
+}
+/*large screen and up  */
+
+@media(min-width:1200px) {
+    .mobOly
+    {
+        display: none;
+    }
+     .col-xl-hidden
+    {
+        display: none
+    }
+}

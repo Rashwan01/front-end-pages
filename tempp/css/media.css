@@ -1,0 +1,81 @@
+/* small screen*/
+@media (max-width:575px)
+{
+
+  .sec4 form
+    {
+        margin: 10px 0
+    }
+  .sec1  img
+    {
+            margin: 27px 0;
+    }
+    .sec1 .container .py-5, .sec1 .container .ml-5, .sec1 .container .mt-5
+    {
+        margin: 0  !important ;
+        padding: 0  !important;
+        
+    }
+    .sec1 form button
+    {
+            margin-top: -6px;
+    }
+
+    .sec4 .holder
+{position: static;
+         
+    top: 0;
+    margin: 44px 0;
+ 
+}
+    .sec2 img
+{
+   width: 54%;
+    margin-top: 47px;
+}
+  
+}
+
+@media (min-width: 576px) and(max-width:768px)
+{   
+    
+.sec4 form
+    {
+        margin: 0
+    }
+  .sec1 img
+    {
+            margin: 95px -52px;
+    }
+  
+} 
+/* small screen*/
+@media(min-width:768px) and (max-width:991px)
+{
+
+    .sec4 form
+    {
+        margin: 0
+    }
+  .sec1 img
+    {
+  margin: 95px -52px;
+}
+}
+
+/*medium screen */
+@media (min-width:992px) and (max-width:1199px)
+{
+ 
+}
+/*large screen and up  */
+@media(min-width:1200px)
+{
+
+
+}
+
+
+    
+   
+    
