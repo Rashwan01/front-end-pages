@@ -1,0 +1,189 @@
+/* Scss Document */
+/* component */
+.btn-primary-soft {
+  background-color: rgba(51, 94, 234, 0.1);
+  color: #335eea !important; }
+
+.border-horizontal {
+  border-right: 1px solid #eaeaea; }
+
+.hidden {
+  display: none; }
+
+.text-blue {
+  color: #335eea !important; }
+
+.bg-gradient-light {
+  background-image: linear-gradient(180deg, #f9fbfd 0, #fff); }
+
+.text-green-light {
+  color: #42ba96 !important; }
+
+.w-60px {
+  width: 60px; }
+
+.p-grey {
+  color: #777;
+  line-height: 1.7;
+  font-size: 20px;
+  font-weight: 500; }
+
+/* component */
+.form-control:focus {
+  outline: none;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #335eea !important;
+  box-shadow: none; }
+
+@media (min-width: 1200px) {
+  section {
+    margin: 100px 0; } }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1040px; } }
+
+.secondaryColor {
+  background: #335eea;
+  color: #FFF !important; }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #506690 !important;
+  font-size: 20px;
+  padding: 0 40px;
+  font-weight: 400; }
+  .navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #335eea !important; }
+
+.header h2 {
+  line-height: 1.5; }
+  .header h2 span {
+    color: #335eea; }
+
+.info .register form input {
+  border: none;
+  border-bottom: 1px solid #EAEAEA;
+  padding: 30px 0; }
+.info .register svg {
+  color: #42ba96 !important; }
+.info .register h2.text-custom {
+  line-height: 1.5;
+  font-size: 37px;
+  font-weight: 100; }
+.info .last h2 {
+  line-height: 1.5; }
+.info .last .feature {
+  margin: 50px 0; }
+.info .last .img {
+  transform: skew(-7deg, 7deg) translate(82px);
+  margin: 100px 0; }
+
+.qoutes p {
+  color: #777;
+  line-height: 1.7;
+  font-size: 19px;
+  font-weight: 500; }
+
+.says .row {
+  position: relative; }
+.says .holder img {
+  margin: 10px 0; }
+.says .holder p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.7;
+  margin: 20px 0; }
+.says .holder span {
+  color: #777; }
+.says .arrow {
+  position: relative;
+  background: #335eea;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; }
+  .says .arrow svg {
+    color: #FFF;
+    position: absolute;
+    top: 10px;
+    left: 15px; }
+.says .arrow-left {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px; }
+.says .arrow-right {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  right: 0; }
+
+.statistic .left h2 {
+  font-weight: 200;
+  line-height: 1.8;
+  font-size: 35px; }
+  .statistic .left h2 span {
+    color: #335eea; }
+.statistic .left p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #777;
+  font-weight: 500; }
+.statistic .left .stat p {
+  font-size: 19px;
+  color: #0D0B0B; }
+.statistic .left .stat span {
+  font-weight: 500;
+  font-size: 18px;
+  color: #777; }
+
+.plan .box1 {
+  left: 5px;
+  z-index: 55; }
+.plan .box1, .plan .box2 {
+  margin: 100px 0;
+  border-radius: none;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  position: relative;
+  padding: 50px 0 0 0;
+  box-shadow: 7px 0px 6px 3px #eaeaea;
+  border: 2px solid #EBEBEB; }
+  .plan .box1 .head, .plan .box2 .head {
+    background-color: rgba(51, 94, 234, 0.1);
+    color: #335eea;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0;
+    display: inline-block; }
+  .plan .box1 .price, .plan .box2 .price {
+    font-size: 65px; }
+  .plan .box1 span.per, .plan .box2 span.per {
+    color: #777;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 0; }
+  .plan .box1 .feat svg, .plan .box2 .feat svg {
+    color: #2b5; }
+  .plan .box1 .feat p, .plan .box2 .feat p {
+    font-size: 18px; }
+.plan .box2 .offer {
+  font-size: 20px;
+  color: #777;
+  margin: 130px 0; }
+.plan .box2 div.btn {
+  font-size: 20px;
+  position: relative;
+  bottom: -28px;
+  color: #506690 !important;
+  background-color: #d9e2ef !important; }
+
+.question .icon {
+  font-size: 25px;
+  background: #2b5;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  line-height: 42px; }
