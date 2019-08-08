@@ -1,0 +1,484 @@
+body {
+    text-transform: capitalize;
+    height: 4000px;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif
+}
+.ds
+{
+    display: none
+}
+.overlayImg
+{
+    position: absolute;
+        width: 100%;
+    height: 100%;
+   
+}
+.overlayImg img
+{
+    width: 200px;
+    margin-right: 55px;
+    position: relative;
+    bottom: 0;
+    transform: scale(1.2) skewY(-7deg)
+}
+.overlayImg img:first-of-type{
+    
+    margin-bottom: 100px;
+    margin-left: 20px
+}
+.overlayImg img:nth-of-type(2){
+    
+    margin-bottom: 70px
+}
+.overlayImg img:nth-of-type(3){
+    
+    margin-bottom: 170px
+}
+
+.overlayImg img:nth-of-type(4){
+    
+    margin-bottom: 90px
+}
+
+
+
+a:hover {
+    text-decoration: none
+}
+
+.fill-width {
+    width: 100%;
+}
+
+img.shadoo {
+    position: relative;
+
+}
+
+.btn-success {
+    background-color: #02B875;
+    border-color: #02B875;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+}
+
+.w-30 {
+    width: 30% !important;
+}
+
+/* nav var scope */
+
+.navbar {
+    height: 64px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #FFF;
+}
+
+.navbar-nav li a span {
+    color: #FFF;
+    font-size: 12px;
+    display: inline-block;
+    background: #777;
+    padding: 0 3px;
+    border-radius: 5px;
+    font-weight: bolder;
+
+
+}
+
+.navbar-nav li a span:first-letter {
+    font-size: 10px
+}
+
+.dropdown-toggle::after {
+    margin-left: 0;
+}
+
+.navbar form button {
+    width: 144px;
+    height: 36px;
+    margin-left: 20px;
+}
+
+/*end navbar scope */
+
+.form {
+    background: url("../img/graphic-bg-clouds-2.png");
+    background-size: cover;
+}
+
+.form .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #212529 !important;
+    opacity: 0.97;
+}
+
+
+.form h3 {
+    color: #FFF;
+    font-size: 55px;
+    margin-top: 100px;
+
+}
+
+
+.form p {
+
+    color: #FFF;
+    letter-spacing: 2px;
+}
+
+.form form {
+    background: #FFF;
+}
+
+.form form {
+    padding: 20px;
+    margin: 100px 45px;
+    border-radius: 3px;
+    border: 2px solid#eaeaea
+}
+
+.form-control {
+    padding: 24px 10px;
+}
+
+.form form label {
+    font-size: 14px;
+}
+
+.form form span {
+    font-size: 11px;
+    color: #777;
+}
+
+.form form .labelAGREE {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+/*end */
+
+/*start */
+
+.extintion {
+    padding: 10px 0 50px
+}
+
+.extintion span {
+    color: #777;
+    font-size: 12px;
+    margin: 47px 0 10px;
+    display: inline-block;
+}
+
+.extintion h1 {
+    color: #343a40;
+    font-size: 3.5rem;
+    font-weight: 300;
+
+}
+
+.extintion p {
+    font-size: 15px;
+    line-height: 2;
+
+}
+
+.vedio-cover {
+    position: relative;
+}
+
+.vedio-play-icon {
+    margin: 0 auto;
+    cursor: pointer;
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    font-size: 2rem;
+    transition: transform .2s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    margin-top: -36px;
+    margin-left: -36px;
+    margin-bottom: 0 !important;
+}
+
+.vedio-cover iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+.extintion img {
+    width: 80%
+}
+
+.extintion img.active {
+    display: block
+}
+
+.extintion .card {
+    width: 411px;
+    height: 130px;
+    border: 1px solid#EAEAEA;
+    margin-bottom: 20px;
+    background: #EAEAEA;
+    margin-left: 132px;
+}
+
+.extintion .card.active {
+    background: #FFF;
+
+}
+
+.extintion .card.active .card-body h1 {
+    background: #4582EC;
+}
+
+.extintion .card-title {
+    font-size: 16px
+}
+
+.extintion .card-text {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.extintion .footer span {
+    font-size: 10px
+}
+
+.extintion .footer p {
+    font-size: 12px;
+    line-height: 1.4
+}
+
+.extintion .footer a {
+    font-size: 13px;
+}
+
+.extintion .footer a:hover {
+    text-decoration: noen;
+
+}
+
+/*end*/
+
+/*section has the class but diffrent attribute  [ extention] */
+
+.extintion .card .card-body h1 {
+    background: #ced4da;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 36px;
+    line-height: 45px;
+    width: 45px;
+    height: 45px;
+    margin: 10px 0 0;
+    color: #FFF;
+}
+
+.card {
+    transition: all 0.5s ease-in-out;
+}
+
+/*end*/
+
+/*convenience*/
+
+.convenience {}
+
+.convenience h3 {
+    margin-top: 65px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 38px;
+
+}
+
+.convenience p {
+    padding-bottom: 10px;
+    border-bottom: 1px solid#EAEAEA;
+    display: inline-block;
+
+}
+
+.convenience .con span {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.convenience .con p {
+    border: none
+}
+
+.convenience .con a {
+    margin-bottom: 21px;
+    display: block;
+}
+
+.convenience .con span svg {
+    margin-right: 20px;
+}
+
+.convenience img {
+    width: 100%;
+    height: 100%
+}
+
+
+.convenience .holder {
+    padding: 36px 134px 0;
+}
+
+/*end */
+
+/*start */
+
+/*end*/
+
+.lastPost {
+    margin-top: 50px;
+}
+
+.lastPost span {
+    color: #777;
+    font-weight: bold;
+}
+
+.lastPost h1 {
+    text-transform: capitalize;
+    margin-bottom: 30px;
+
+}
+
+.lastPost p {
+    color: #777;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+}
+
+.lastPost .card {
+    margin-bottom: 20px
+}
+
+.lastPost .card .card-title {
+
+    font-size: 23px;
+    color: #08526d;
+    /* margin-bottom: 22px; */
+    line-height: 1.3;
+    padding: 10px;
+
+}
+
+.lastPost .card .card-text {
+    margin: 0;
+    padding: 10px;
+}
+
+.lastPost .card .btn {
+    /* color: #ec1c23; */
+    font-weight: 700;
+    font-size: 13px;
+    padding: 0;
+    padding: 10px;
+}
+
+/*end*/
+
+/*start */
+
+.Subscribe {
+    padding: 50px 0;
+}
+
+.Subscribe form button {
+    width: 247px;
+    height: 47px;
+    margin: 32px 10px
+}
+
+.Subscribe h1 {
+    margin-bottom: 50px;
+}
+
+.Subscribe form span {
+    font-size: 12px;
+}
+
+/*end */
+
+/*start feature*/
+
+.feature {
+    background: linear-gradient(135deg, #6f42c1 0%, #4582EC 100%);
+    padding: 20px 0;
+    color: #FFF;
+}
+
+.feature p {
+    margin: 0;
+}
+
+.feature a {
+    margin-left: 10px;
+    color: #FFF;
+    font-weight: bold;
+    transition: all 1s ease-in-out
+}
+
+.feature a:hover {
+    opacity: .75;
+}
+
+/*start footer scope */
+
+section.footer {
+    background: #343a40;
+    padding: 100px 0
+}
+
+section.footer p {
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 20px;
+    font-size: 12px;
+
+}
+
+.footer .col-lg-9 p {
+    margin-bottom: 50px;
+    color: #FFF;
+    margin-top: 0;
+    font-size: 19px;
+}
+
+.footer ul li {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 14px;
+
+}
+
+section.footer ul li.active {
+    margin-bottom: 10px;
+    color: #FFF;
+    font-size: 18px
+}
+
+/*end  footer*/

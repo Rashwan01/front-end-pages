@@ -1,0 +1,168 @@
+/* smart phone and tablet */
+
+@media (max-width: 575.98px) {
+    
+    
+    .row-xs-del
+    {
+        margin: 0
+    }
+        .Go
+    {
+        top: 730px;
+        right: 10px
+    }
+    .price .col-lg-2 img {
+    margin-left:0; 
+    margin-top: 50px;
+        
+    }
+    .slider .carousel-inner {
+
+        justify-content: center;
+    }
+
+    .slider h1 {
+        position: absolute;
+        z-index: 3;
+        color: #FFF;
+        max-width: 850px;
+        font-size: 35px;
+        left: 20px;
+    }
+    .article h1 {
+        font-size: 28px;
+    }
+    .article p {
+        font-size: 12px;
+        line-height: 2;
+    }
+    .footer h1,
+    .footer h2 {
+        font-size: 19px;
+        margin-top: 20px
+    }
+    .footer ul {
+        margin-top: 20px
+    }
+    .copywrite ul li {
+        display: inline-block;
+        margin: 20px
+    }
+    .pricing .card .btn {
+    color: #FFF;
+    /* font-weight: 700; */
+    font-size: 19px;
+    background: #ec1c23;
+    padding: 0;
+    width: 35%;
+    border-radius: 2px;
+    height: 45px;
+    line-height: 45px;
+    letter-spacing: 6px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    margin-top: 50px;
+
+
+}
+    .w-xs-40
+    {
+        width: 40%;
+    }
+}
+
+/* small screen*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .slider .carousel-inner {
+
+        justify-content: center;
+    }
+
+    .slider h1 {
+
+        font-size: 35px;
+        left: 20px;
+        text-align: center;
+
+    }
+    .footer h1,
+    .footer h2 {
+        font-size: 19px;
+        margin-top: 20px
+    }
+    .footer ul {
+        margin-top: 20px
+    }
+    .copywrite ul li {
+        display: inline-block;
+        margin: 20px
+    }
+        .pricing .card .btn {
+    color: #FFF;
+    /* font-weight: 700; */
+    font-size: 19px;
+    background: #ec1c23;
+    padding: 0;
+    width: 35%;
+    border-radius: 2px;
+    height: 45px;
+    line-height: 45px;
+    letter-spacing: 6px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    margin-top: 50px;
+
+
+}
+    
+}
+
+/*medium screen */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .slider .carousel-inner {
+
+        justify-content: center;
+    }
+
+    .slider h1 {
+        font-size: 35px;
+        left: 20px;
+        text-align: center;
+    }
+    .footer h1,
+    .footer h2 {
+        font-size: 23px;
+        margin-top: 20px
+    }
+    .footer ul {
+        margin-top: 20px
+    }
+    .Go
+    {
+        top: 730px;
+        right: 2px
+    }
+
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .footer h1,
+    .footer h2 {
+        font-size: 25px;
+        margin-top: 20px
+    }
+    .footer ul {
+        margin-top: 20px
+    }
+}
+
+/*large screen and up  */
+
+@media(min-width:1200px) {}

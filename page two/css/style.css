@@ -1,0 +1,352 @@
+body
+{
+    text-transform: capitalize;
+font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
+font-family: 'Roboto', sans-serif
+}
+h1,h2,h3,h4,h5,h6,p,
+{
+    color:#343a40
+
+}
+
+a:hover
+{
+    text-decoration: none
+}
+.fill-width
+{
+    width: 100%;
+}
+img.shadoo {
+   position: relative;
+
+}
+.overlay
+{
+ position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.4;
+}
+.btn-success
+{
+    background-color: #02B875;
+    border-color: #02B875;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+}
+.w-30 {
+    width: 30% !important;
+}
+/* nav var scope */
+.navbar
+{
+    height: 64px;
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    color: #FFF;
+}
+.navbar-nav li a span
+{
+        color: #FFF;
+    font-size: 12px;
+    display: inline-block;
+    background: #777;
+    padding:  0 3px;
+    border-radius: 5px;
+    font-weight: bolder;
+
+
+}
+.navbar-nav li a span:first-letter
+{
+    font-size: 10px
+}
+
+.dropdown-toggle::after
+{
+    margin-left: 0;
+}
+.navbar form button
+{
+        width: 144px;
+    height: 36px;
+    margin-left: 20px;
+}
+
+/*end navbar scope */
+
+/*start feature*/
+.feature
+{
+        background: linear-gradient(135deg, #6f42c1 0%, #4582EC 100%);
+    padding: 20px 0;
+    color: #FFF;
+}
+.feature p
+{
+    margin: 0;    color: #FFF;
+}
+.feature a
+{
+    margin-left: 10px;
+    color: #FFF;
+    font-weight: bold;
+    transition: all 1s ease-in-out
+}
+.feature a:hover
+{
+        opacity: .75;
+}
+.search
+{
+    background:url("../img/photo-road%20(1).jpg") center center;
+    background-size: cover;
+    color: #FFF;
+}
+.search .Con
+{
+    position: relative;   
+}
+.search .Con h1
+{
+    font-size: 80px;
+    margin-top: 120px;      color: #FFF;
+}
+.search .Con p
+{
+    line-height: 2;       color: #FFF;
+ 
+}
+.inbt
+{
+    width: 70%;
+    margin: auto;
+}
+.input-group-lg > .form-control , .input-group > .input-group-prepend > .input-group-text
+{
+    height: 70px;
+    border: none
+}
+.input-group > .input-group-prepend > .input-group-text
+{
+    background: #FFF
+}
+.input-group > .input-group-append > .btn
+{
+       height: 47px;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    margin-right: 39px;
+    width: 98px;
+    margin: 11px 39px 0 0;
+}
+.search .col ul a
+{
+    color: #777
+}
+.search .col ul a li
+{
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.3125rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #545b62;
+    border-color: #4e555b;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-ou
+}
+.list-unstyled
+{
+        margin-top: 21px;
+}
+.extintion
+{
+    background: #fdfdfd;
+    padding: 10px 0 50px
+}
+.extintion span
+{
+        color: #777;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    margin: 47px 0 10px;
+    display: inline-block;
+}
+.extintion h1
+
+{    color: #343a40;
+    font-size: 3.5rem;
+    font-weight: 300;
+
+}
+.extintion p
+{    font-size: 15px;
+    line-height: 2;
+    
+}
+.extintion img
+{
+    
+    width: 80%;  
+}
+.lastOne
+{
+    margin: 50px 0;
+}
+.lastOne img
+{
+    
+    width: 100%;    margin-left: 170px;
+}
+.lastOne .Con
+{    margin: 65px auto -41px;
+    width: 50%;
+    
+
+}
+.lastOne .Con h5{
+    margin-bottom: 19px;border-bottom: 1px solid#EAEAEAea;
+    padding-bottom: 14px;color: #777;
+}
+.lastOne .Con .TEXT
+{
+    display: none;color: #777;
+}
+.extintion img.active
+{
+    display: block
+}
+.extintion .card
+{
+       
+      border: none;
+    margin-bottom: 20px;
+}
+.extintion  .COO
+{  margin-bottom: 50px;
+
+     
+}
+
+.extintion .card.active
+{
+    background: #FFF;
+    
+}
+.extintion .card-title
+{
+    font-size: 16px
+}
+.extintion .card-text
+{
+ font-size: 13px;
+    line-height: 1.5;
+}
+.extintion  .footer span
+{
+    font-size: 10px
+}
+.extintion  .footer p
+{
+    font-size: 12px;
+    line-height: 1.4
+    
+}
+.extintion  .footer a
+{
+    font-size: 13px;
+}
+.extintion  .footer a:hover
+{
+    text-decoration: noen;
+    
+}
+/*start footer scope */
+
+/* start */
+.spliter 
+{
+    margin: 50px 0;
+}
+.spliter .con
+{
+        margin: 0 97px;
+}
+.spliter span
+{
+        color: #777;
+      margin: 0 0 22px 5px;
+    display: block;
+}
+.spliter h1
+{
+        font-size: 56px;
+    margin-bottom: 34px;
+}
+.spliter p
+{
+        line-height: 2;
+    font-size: 20px;
+}
+.spliter .btn-outline-primary
+{
+        border-color: #ced4da;color: #4582EC;
+    background-color: transparent;    border-color: #ced4da;
+    transition: all 0.5s ease-in-out;    padding: 10px 28px;
+}
+.spliter .btn-outline-primary:hover
+{
+    background: #4582EC;
+    color: #FFF;
+}
+/*end */
+section.footer
+{
+    background: #343a40;
+    padding: 100px 0 
+}
+section.footer p
+{
+    color: rgba(255, 255, 255, 0.75) ;
+    margin-top: 20px;
+    font-size: 12px;
+    
+}
+.footer .col-lg-9 p
+{
+    margin-bottom: 50px;
+    color: #FFF;    margin-top: 0;
+    font-size: 19px;
+}
+.footer ul li
+{ color: rgba(255, 255, 255, 0.75) ;
+    font-size: 14px;
+    
+}
+section.footer ul li.active
+{
+    margin-bottom: 10px;
+    color: #FFF;
+    font-size: 18px
+
+}
+.color
+{
+    color:#343a40 !important
+}
+
+/*end  footer*/

@@ -1,0 +1,392 @@
+
+.ds
+{
+    display: none
+
+}
+
+body
+{
+    text-transform: capitalize;
+font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
+font-family: 'Roboto', sans-serif
+}
+h1 ,h2, h3, h4, h5, h6, p
+{
+    color:#343a40
+
+}
+section
+{
+    margin-bottom: 100px;
+}
+section:last-of-type
+{
+    margin-bottom: 0;
+    margin-top: -100px
+}
+
+a:hover
+{
+    text-decoration: none
+}
+.bg-secondary {
+    background: #e9ecef !important;
+}
+.color-dark
+{
+ 
+ color:#343a40 !important
+
+}
+.color-white
+{
+    color: #FFF
+}
+.fill-width
+{
+    width: 100%;
+}
+.w-70
+{
+    width:70%
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    line-height: 1.875rem;
+    display: block;
+    font-weight: 400;
+}
+
+.overlay
+{
+ position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.4;
+}
+.btn-success
+{
+    background-color: #02B875;
+    border-color: #02B875;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+}
+.w-30 {
+    width: 30% !important;
+}
+/* nav var scope */
+.navbar
+{
+    height: 64px;
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    color: #FFF;
+}
+.navbar-nav li a span
+{
+        color: #FFF;
+    font-size: 12px;
+    display: inline-block;
+    background: #777;
+    padding:  0 3px;
+    border-radius: 5px;
+    font-weight: bolder;
+
+
+}
+.navbar-nav li a span:first-letter
+{
+    font-size: 10px
+}
+
+.dropdown-toggle::after
+{
+    margin-left: 0;
+}
+.navbar form button
+{
+        width: 144px;
+    height: 36px;
+    margin-left: 20px;
+}
+
+/*end navbar scope */
+
+/*start feature*/
+.feature
+{
+        background: linear-gradient(135deg, #6f42c1 0%, #4582EC 100%);
+    padding: 20px 0;
+    color: #FFF;
+}
+.feature p
+{
+    margin: 0;    color: #FFF;
+}
+.feature a
+{
+    margin-left: 10px;
+    color: #FFF;
+    font-weight: bold;
+    transition: all 1s ease-in-out
+}
+.feature a:hover
+{
+        opacity: .75;
+}
+/*caption scope */
+
+.caption .Con
+{    width: 70%;
+    margin: 0 auto;
+    
+}
+
+.caption .Con .btn
+{
+    padding: 12px;
+}
+/*end caption scope */
+/* start vedio sec */
+.vedio-cover
+{
+    position: relative;
+}
+
+.vedio-play-icon 
+{
+    margin: 0 auto;
+    cursor: pointer;
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    font-size: 2rem;
+    transition: transform .2s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    margin-top: -36px;
+    margin-left: -36px;
+    margin-bottom: 0 !important;
+}
+.vedio-cover iframe
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
+/*  end vedio sec */
+/*  start vector section  */
+.vector span, .Grid .header span,.price .header span
+{
+        color: #777;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    margin: 47px 0 10px;
+    display: inline-block;
+}
+.vector h1,.Grid .header h1,.price .header h1
+
+{    color: #343a40;
+    font-size: 3.5rem;
+    font-weight: 300;
+
+}
+.vector p,.Grid .header p,.price .header p
+{   
+    line-height: 2;
+    margin-bottom: 80px
+    
+}
+.price .header p
+{
+    line-height: 1.5
+}
+
+.vector .row
+{
+    margin-bottom: 60px;
+    
+}
+.vector img
+{
+    width:85%;
+    border-radius:5px
+}
+.vector .col-lg-6 h1
+{
+       font-size: 25px;
+    margin-bottom: 14px;
+    margin-top: 69px;
+      font-weight: 500
+}
+.vector .col-lg-6  p
+{font-size: 14px;
+    word-spacing: 1px;
+    line-height: 1.8;
+  
+
+}    
+
+/* end section */
+/* start section Grid */
+.Grid .split 
+{
+    
+}
+.Grid .split h1
+{
+    font-size: 22px;
+    margin-top: 10px
+    
+}
+.Grid .split p
+{
+    font-size: 15px
+}
+.Grid .footer span
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+.Grid  .footer p
+{
+    font-size: 12px;
+    line-height: 1.4
+    
+}
+.Grid   .footer a
+{
+    font-size: 13px;
+}
+.Grid   .footer a:hover
+{
+    text-decoration: noen;
+    
+}
+/*end */
+/* price section */
+.price .card {
+    margin-bottom: 52px;
+    color: #FFF;
+    padding-bottom: 50px
+}
+
+.price  .card .card-title {
+
+    padding: 42px 0 0; color: #FFF
+}
+
+.price  .card .card-text {
+    font-size: 70px;
+}
+
+.price .card .card-text span
+{ color: #FFF
+     
+}
+.price .card .subtitle{
+      color: #FFF
+}
+.list-group-flush .list-group-item {
+    border: none
+}
+/* to make all li has the background and interact with other part of ssec */
+.list-group-item
+{
+    background: none;    padding: 3px;
+}
+
+
+.price .list-group-item.active {
+     border: none;
+    margin-bottom: 30px;
+    background: none;
+}
+.price .card-body
+{
+    padding: 1px
+}
+.price .card .btn
+{
+    margin-top: 20px
+}
+.text-muted {
+    color: #6c757d;
+}
+.price  .col-lg-3
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+.price .col-lg-2 img
+{
+    margin-left: 220px;
+    margin-top: 50px
+}
+.price .footer h1{
+    font-size: 25px;
+}
+/*end price section */
+/*  start last section */
+.Last h1
+{
+    margin-top: 70px;
+}
+.Last .btn
+{
+    height: 50px;
+    line-height: 50px;
+    padding-top: 0;
+}
+/*  endlast section */
+/*start footer scope */
+
+section.footer
+{
+    background: #343a40;
+    padding: 100px 0 
+}
+section.footer p
+{
+    color: rgba(255, 255, 255, 0.75) ;
+    margin-top: 20px;
+    font-size: 12px;
+    
+}
+.footer .col-lg-9 p
+{
+    margin-bottom: 50px;
+    color: #FFF;    margin-top: 0;
+    font-size: 19px;
+}
+.footer ul li
+{ color: rgba(255, 255, 255, 0.75) ;
+    font-size: 14px;
+    
+}
+section.footer ul li.active
+{
+    margin-bottom: 10px;
+    color: #FFF;
+    font-size: 18px
+
+}
+
+
+/*end  footer*/

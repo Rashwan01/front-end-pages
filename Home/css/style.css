@@ -1,0 +1,312 @@
+body
+{
+    text-transform: capitalize;
+    height: 4000px;font-family: 'Rubik', sans-serif;
+}
+.fill-width
+{
+    width: 100%;
+}
+img.shadoo {
+   position: relative;
+
+}
+
+.btn-success
+{
+    background-color: #02B875;
+    border-color: #02B875;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+}
+.w-30 {
+    width: 30% !important;
+}
+/* nav var scope */
+.navbar
+{
+    height: 64px;
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    color: #FFF;
+}
+.navbar-nav li a span
+{
+        color: #FFF;
+    font-size: 12px;
+    display: inline-block;
+    background: #777;
+    padding:  0 3px;
+    border-radius: 5px;
+    font-weight: bolder;
+
+
+}
+.navbar-nav li a span:first-letter
+{
+    font-size: 10px
+}
+
+.dropdown-toggle::after
+{
+    margin-left: 0;
+}
+.navbar form button
+{
+        width: 144px;
+    height: 36px;
+    margin-left: 20px;
+}
+
+/*end navbar scope */
+/*start carsoul scope */
+
+
+
+/*end carsoul scope */
+.attractive .col-lg-12 span
+{
+    color: #777;
+    display: inline-block;
+    padding:50px  0 20px 0
+}
+.attractive h1
+{
+    font-size: 60px;
+    word-break: 5px;
+}
+.attractive p
+{
+    line-height: 1.5;
+    color: #777;
+    font-weight: 400;
+    margin-bottom: 30px;
+    
+}
+
+.info {
+    margin: 50px 0;
+    background: #Eaeaea;
+    padding-bottom: 46px;
+     
+}
+
+.info h3 {
+    padding: 30px 0 10px;
+    color: #343a40
+}
+
+.info p {
+    color: #777;
+}
+
+.info span {
+    border-bottom: 2px solid#eaeaea;
+    padding-bottom: 2px;
+    transition: all 0.45s ease;
+    color: dodgerblue
+}
+
+.info span:hover {
+    border-bottom: 2px solid#212121;
+    padding-bottom: 2px;
+    color: #212121;
+}
+/*end*/ 
+/*start tages*/
+.Tages
+{
+    margin-bottom: 50px
+}
+.Tages .Holder
+{
+    margin: 100px 60px;
+    width: 80%
+}
+.Tages .Holder span{
+    color: #777;
+    display: inline-block;
+    margin-bottom: 25px
+}
+.Tages .Holder h1{
+    font-size: 35px;
+    color: #343a40;
+    margin-bottom: 25px
+}
+.Tages .Holder p{
+margin-bottom: 20px;
+    line-height: 1.5;
+}
+.Tages .Holder a
+{
+    font-size: 18px
+}
+.Tages .Holder a:hover{
+    text-decoration: none;
+    
+}
+.Tages img
+{
+    width: 70%;
+    margin-left: 50px;
+}
+.Ipad img
+{
+    width: 80%;
+    margin-left: 50px;
+}
+/*end*/
+.client 
+{
+    background: linear-gradient(135deg, #6f42c1 0%, #4582EC 100%);
+    padding: 100px 0;
+    color: #fff;
+}
+.client img
+{
+    border-radius: 50%;
+    width:120px;
+    height: 120px;    margin: 10px 53px;
+}
+.client blockquote
+{
+    margin: 25px 0;
+    font-size: 32px;
+}
+/*end*/
+.extintion
+{
+    background: #EAEAEA;
+    padding: 10px 0 50px
+}
+.extintion span
+{
+    color: #777;
+    font-size: 12px;
+    margin: 47px 0 10px;
+    display: inline-block;
+}
+.extintion h1
+
+{    color: #343a40;
+    font-size: 3.5rem;
+    font-weight: 300;
+
+}
+.extintion p
+{    font-size: 15px;
+    line-height: 2;
+    
+}
+.extintion img
+{
+    display: none;
+    width: 80%;    margin-left: 53px;
+}
+.extintion img.active
+{
+    display: block
+}
+.extintion .card
+{
+        width: 382px;
+    border: 1px solid#EAEAEA;
+    margin-bottom: 20px;background: #EAEAEA
+}
+.extintion .card.active
+{
+    background: #FFF;
+    
+}
+.extintion .card-title
+{
+    font-size: 16px
+}
+.extintion .card-text
+{
+ font-size: 13px;
+    line-height: 1.5;
+}
+.extintion  .footer span
+{
+    font-size: 10px
+}
+.extintion  .footer p
+{
+    font-size: 12px;
+    line-height: 1.4
+    
+}
+.extintion  .footer a
+{
+    font-size: 13px;
+}
+.extintion  .footer a:hover
+{
+    text-decoration: noen;
+    
+}
+.rotate
+{
+    background: linear-gradient(135deg, #6f42c1 0%, #4582EC 100%);
+
+}
+.rotate h1
+{
+    color: #Fff;
+  
+}
+.rotate .col-lg-12
+{
+        padding: 144px 218px;
+}
+.rotate .btn
+{
+        background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0);
+    color: #fff;
+        margin: 10px 34%;
+}
+.rotate .btn:hover
+{
+        background: #fff;
+    color: #4582EC;
+}
+section.footer
+{
+    background: #343a40;
+    padding: 100px 0 
+}
+section.footer p
+{
+    color: rgba(255, 255, 255, 0.75) ;
+    margin-top: 20px;
+    font-size: 12px;
+    
+}
+.footer .col-lg-9 p
+{
+    margin-bottom: 50px;
+    color: #FFF;    margin-top: 0;
+    font-size: 19px;
+}
+.footer ul li
+{ color: rgba(255, 255, 255, 0.75) ;
+    font-size: 14px;
+    
+}
+section.footer ul li.active
+{
+    margin-bottom: 10px;
+    color: #FFF;
+    font-size: 18px
+
+}
+.card
+{
+    transition: all 1s ease-in-out;
+}
+
+
+/*end */

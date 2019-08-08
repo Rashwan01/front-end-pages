@@ -1,0 +1,232 @@
+body
+{
+    text-transform: capitalize;
+ font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 70px;
+    color: #343a40
+}
+a:hover
+{
+    text-decoration: none
+}
+.fill-width
+{
+    width: 100%;
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+  color: rgba(52, 58, 64, 0.5);
+}
+.navbar .link
+{
+    color: #4582EC
+}
+.header h1
+{
+    margin-top: 71px;
+    margin-bottom: 24px;
+        line-height: 1.8;    font-size: 49px;
+}
+.header p
+{
+    
+    line-height: 1.8;
+}
+.header span
+{
+    font-size: 12px;
+    display: block;
+    margin-bottom: 24px;
+    color: #777;
+}
+.header .film
+{
+   color:  #4582EC
+}
+.header .film svg
+{
+    margin-right: 10px;
+}
+.header img
+{
+    width: 100%;
+}
+.Tage
+{
+    padding: 50px 0;
+   
+}
+.Tage img
+{
+    width: 60%;
+}
+.client 
+{
+   
+    padding: 150px 0;
+   
+}
+.client img
+{
+    border-radius: 50%;
+    width:120px;
+    height: 120px;    margin: 10px 53px;
+}
+.client span
+{
+    margin-left: 25px;
+}
+.client blockquote
+{
+    margin: 25px 30px ;    font-size: 32px;
+    line-height: 1.5;
+}
+.vector .row
+{
+    margin-bottom: 60px;
+    
+}
+.vector img
+{
+    width:85%;
+}
+.vector h1
+{
+       font-size: 20px;
+    margin-bottom: 14px;
+    margin-top: 69px;
+}
+.vector p
+{font-size: 14px;
+    word-spacing: 1px;
+    line-height: 1.8;
+
+}    
+
+.form-control
+{
+        padding: 24px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start */
+.Subscribe 
+{
+    padding: 100px 0;
+    background:#f9f9f9
+}
+.Subscribe form button
+{
+        width: 247px;
+    height: 47px;
+    margin: 32px 10px
+}
+.Subscribe  h1
+{
+  margin-bottom: 80px;
+}
+.Subscribe form span
+{
+    font-size: 12px;
+}/*end */
+/*start feature*/
+.feature
+{
+    background:#212529 !important;
+    padding: 20px 0;
+    color: #FFF;
+}
+.feature p
+{
+    margin: 0;
+}
+.feature a
+{
+    margin-left: 10px;
+    color: #FFF;
+    font-weight: bold;
+    transition: all 1s ease-in-out
+}
+.feature a:hover
+{
+        opacity: .75;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start footer scope */
+
+
+section.footer
+{
+    background: #343a40;
+    padding: 100px 0 
+}
+section.footer p
+{
+    color: rgba(255, 255, 255, 0.75) ;
+    margin-top: 20px;
+    font-size: 12px;
+    
+}
+.footer .col-lg-9 p
+{
+    margin-bottom: 50px;
+    color: #FFF;    margin-top: 0;
+    font-size: 19px;
+}
+.footer ul li
+{ color: rgba(255, 255, 255, 0.75) ;
+    font-size: 14px;
+    
+}
+section.footer ul li.active
+{
+    margin-bottom: 10px;
+    color: #FFF;
+    font-size: 18px
+
+}
+
+/*end  footer*/
